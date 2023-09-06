@@ -51,7 +51,7 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/TextUse'>
         {/* <Navbar title="Jatin Mahawar" aboutText="About Me"/> */}
         <Navbar title="Text-Counter" mode={Mode} toggleMode={toggleMode} able={able} />
         <Alert alert={alert} />
